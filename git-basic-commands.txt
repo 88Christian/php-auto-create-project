@@ -1,0 +1,7 @@
+git add *
+git commit -m "comment here"
+git remote add origin https://github.com/88Christian/christian-ibana.git
+git remote -v
+git push -u origin master
+git pull (to update your local repository based on the remote repo)
+git pull --rebase (when you have changes in your local repo and dont want to overwrite by the remote repo)
